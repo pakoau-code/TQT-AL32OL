@@ -1,5 +1,5 @@
 c// v13 — toma control inmediato y evita servir index.html desde caché antigua
-const CACHE_NAME = 'tqt-al32ol-v13';
+const CACHE_NAME = 'tqt-al32ol';
 const ASSETS = [
   './index.html',
   './index-desktop.html', // si no lo usas, borra esta línea
