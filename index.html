@@ -55,7 +55,7 @@ button { background:var(--brand); color:#fff; border-color:#111; cursor:pointer;
     <button id="btn" type="button" onclick="calc()">Calcular</button>
 
     <div id="out" class="result" style="display:none"></div>
-    <div class="footer">Fórmula: ppm = 0.021276·NTU + 15.232540 (×0.96 para dosificación)</div>
+    <div class="footer">Fórmula: ppm = 0.0213·NTU + 15.375 (×0.97 para dosificación)</div>
   </div>
 </div>
 
@@ -66,8 +66,8 @@ if ('serviceWorker' in navigator) {
   });
 }
 
-var m = 0.021276256204721188;
-var b = 15.232539761951417;
+var m = 0.0213;
+var b = 15.375;
 var VOL = 6000.0;
 var N = 4;
 var CAP = 215.0;
