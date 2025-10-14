@@ -55,7 +55,7 @@ button { background:var(--brand); color:#fff; border-color:#111; cursor:pointer;
     <button id="btn" type="button" onclick="calc()">Calcular</button>
 
     <div id="out" class="result" style="display:none"></div>
-    <div class="footer">Fórmula: ppm = 0.0213·NTU + 15.375 (×0.97 para dosificación)</div>
+    <div class="footer">Fórmula: ppm = 0.0213·NTU + 15.375 </div>
   </div>
 </div>
 
@@ -71,7 +71,7 @@ var b = 15.375;
 var VOL = 6000.0;
 var N = 4;
 var CAP = 215.0;
-var FC = 0.96;
+var FC = 1;
 
 function normalize(v) { v = String(v||'').trim().replace(',', '.'); var x = parseFloat(v); return isNaN(x) ? 0 : x; }
 function ppmBase(ntu) { var res = m*ntu + b; return res > 0 ? res : 0; }
