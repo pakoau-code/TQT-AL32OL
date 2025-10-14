@@ -1,4 +1,4 @@
-const CACHE_NAME = 'tqt-al32ol-v8';
+const CACHE_NAME = 'tqt-al32ol-v9';
 const ASSETS = [
   './index.html',
   './index-desktop.html',
