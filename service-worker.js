@@ -1,5 +1,5 @@
 // v13 — actualiza ya y toma control de inmediato
-const CACHE_NAME = 'tqt-al32ol-v13';
+const CACHE_NAME = 'tqt-al32ol-v14';
 const ASSETS = [
   './index.html',
   './index-desktop.html', // si no usas este archivo, borra esta línea
